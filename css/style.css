@@ -1,0 +1,332 @@
+* { 
+    margin: 0; padding: 0; 
+}
+.menuPrincipal {
+    background-color: rgb(0, 0, 0);
+}
+
+.text-um {
+    color: #D9A325;
+    font-size: 13px;
+    margin-top: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-dois {
+    color: #D9A325;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-tres {
+    color: #D9A325;
+    font-size: 14px;
+    margin-top: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imgcel {
+    margin-bottom: 2px;
+}
+
+.text-name {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-qua {
+    color: #D9A325;
+    font-size: 16px;
+}
+
+.sectum {
+    background-color: rgb(41, 41, 41);
+}
+
+.img1 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.p1 {
+    color: white;
+    font-size: 44px;
+    margin-top: 150px;
+    margin-left: -550px;
+}
+
+.p2 {
+    color: white;
+    font-size: 15px;
+    margin-left: -550px;
+    margin-right: 700px;
+}
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: rgb(255, 255, 255);
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+main{
+    margin-top: -20px;
+    background-color: rgb(65, 65, 65);
+
+}
+.slide-show{
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+.imgas{
+    margin-bottom: 6px;
+}
+
+div.box {
+    width: 350px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+div.home1{
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.home2{
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-left: 370px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.home3{
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-left: 365px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.home4{
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.box1 {
+    width: 350px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.imgs{
+    border-radius: 50%;
+}
+div.nome1{
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-left: 220px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}div.nome2{
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-left: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}div.nome3{
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-left: 356px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.nome4{
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-left: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: rgb(206, 42, 119);
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+*/
+/*
+.slides-list {
+    /remove os estilos da lista/
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+
+    /
+      deixa todos os itens da lista
+      na horizontal e todos com a
+      mesma largura
+    /
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+.slides-list {
+    width: 400%;
+}
+
+.slides-list {
+    --total-items: 4;
+    width: calc(var(--total-items) * 100%);
+}
+.slide-show{
+    overflow: hidden;
+  }
+  .slides-list{
+ 
+    position: relative;
+    left: 0%;
+
+  }
+  .slides-list{
+    --selected-item: 0;
+
+    position: relative;
+    left: calc(var(--selected-item) * -100%);
+
+  }
+.slide-controller:nth-child(0):checked ~ .slide1-show .slides-list{--selected-item: 0;}
+.slide-controller:nth-child(1):checked ~ .slide2-show .slides-list{--selected-item: 1;}
+.slide-controller:nth-child(2):checked ~ .slide3-show .slides-list{--selected-item: 2;}
+.slide-controller:nth-child(3):checked ~ .slide4-show .slides-list{--selected-item: 3;}
+.slide-controller:nth-child(4):checked ~ .slide5-show .slides-list{--selected-item: 4;}
+.slide-controller:nth-child(5):checked ~ .slide6-show .slides-list{--selected-item: 5;}
+.slides-list{
+    
+    transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    
+  }*/ 
+  
